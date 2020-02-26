@@ -5,35 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#00faaa"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:background="#ee0887"
-        android:paddingLeft="24dp"
-        android:text="Asmita is Nasty girl."
         android:layout_gravity="center"
-        android:textColor="#ff0"
-        android:textSize="40sp"
-        />
+        android:layout_marginStart="8dp"
+        android:text="GAMOLIC"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="8dp"
-        android:onClick="ram"
         android:background="#00faaa"
+        android:onClick="ram"
         android:text="Click Here"
         android:textAllCaps="false"
         android:textSize="30dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="498dp"
+        android:src="@drawable/dh" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/koala"
-        android:background="#fff711"/>
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
 </LinearLayout>

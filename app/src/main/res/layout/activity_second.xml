@@ -7,4 +7,31 @@
     android:orientation="vertical"
     tools:context=".SecondActivity">
 
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="8dp"
+      android:layout_marginBottom="48dp">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="SCORE"
+          android:textSize="28sp"
+          android:layout_marginparentLeft="true"
+          android:id="@+id/score"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@id/score"
+        android:text="8"
+        android:textSize="28dp"
+        android:layout_marginparentRight="true"/>
+      ></RelativeLayout>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="78dp"
+    android:text="What is age?"
+    android:textSize="8dp"
+    android:padding="8dp"
+    android:layout_marginBottom="80dp"/>
 </LinearLayout>
